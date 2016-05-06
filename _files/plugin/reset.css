@@ -1,0 +1,93 @@
+
+.yx-rotaion {
+    float: left;
+    height: 280px;
+    margin-right: 15px;
+    width: 480px;
+}
+.rotaion_list {
+    height: 0;
+    overflow: hidden;
+    width: 0;
+}
+.yx-rotaion-btn, .yx-rotaion-title, .yx-rotation-focus, .yx-rotation-t, .yx-rotaion-btn {
+    position: absolute;
+}
+.yx-rotation-title {
+    background: #000 none repeat scroll 0 0;
+    bottom: 0;
+    height: 40px;
+    left: 0;
+    line-height: 40px;
+    opacity: 0.4;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+.yx-rotation-t {
+    bottom: 0;
+    color: #fff;
+    font: 14px/40px "simsun";
+    left: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 200px;
+    z-index: 2;
+}
+.yx-rotation-t:hover {
+    color: #ff6600;
+}
+.yx-rotaion-btn span{
+    background: rgba(0, 0, 0, 0) url(../img/icon_focus.png) no-repeat scroll 0 0;
+    display: block;
+}
+
+
+.yx-rotation-focus {
+    bottom: 0;
+    height: 40px;
+    right: 15px;
+    z-index: 2;
+}
+.yx-rotation-focus span {
+	text-align:center;
+	line-height:17px;
+	position:relative;
+	width:16px;
+    cursor: pointer;
+    float: left;
+    height: 16px;
+	font-size:12px;
+    margin-left: 4px;
+	color:white;
+	background-color:#000;
+	top:12px;
+}
+.yx-rotation-focus span.hover {
+    background-color:red;
+}
+.yx-rotaion-btn {
+    height: 0px;
+    top: 35%;
+    width: 100%;
+}
+.yx-rotaion-btn span {
+    cursor: pointer;
+    height: 50px;
+    position: relative;
+    width: 20px;
+}
+.yx-rotaion-btn .left_btn {
+    background-position: 0 100;
+    float: left;
+    left: 0;
+}
+.yx-rotaion-btn .right_btn {
+    background-position: 0 -51px;
+    float: right;
+    right: 0;
+}
+.yx-rotaion-btn span.hover {
+    background-color:red;
+}

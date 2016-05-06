@@ -1,0 +1,112 @@
+.leadIntroduce_middle{
+	margin:0 auto;
+	width:1009px;
+	min-height:600px;
+}
+
+.leadIntroduce_title{
+	margin-top:10px;
+	width:778px;
+	float:right;
+	border:1px #DDDDDD solid;
+}
+
+.leadIntroduce_leadIntroduce_left{
+	margin-top:10px;
+	float:left;
+	width:217px;
+	height:289px;
+	border:1px #DDDDDD solid;
+}
+.leadIntroduce_leadIntroduce_left_parent{
+	background-color:#F0F0F0;
+	border-bottom:1px #DDDDDD solid;
+	height:30px;
+	width:217px;
+}
+
+
+.leadIntroduce_leadIntroduce_left_ul ul{
+    padding: 0px;
+	margin:0 0;
+	list-style-type: none;
+
+}
+.leadIntroduce_leadIntroduce_left_ul li{
+	line-height: 25px;
+	height:25px;
+    width: 100%;
+    font-size: 12px;
+    text-align: left;
+}
+
+.leadIntroduce_leadIntroduce_left_ul li a{
+	background-image:url(../img/point.png);
+	color:black;
+	padding-left: 22px;
+	float:left;
+	overflow:hidden;
+	width:180px;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	display:block;
+	background-repeat: no-repeat;
+    background-position: 10px 7px;
+	clear:left;
+	cursor:pointer;
+}
+.leadIntroduce_leadIntroduce_left_ul li:hover{
+	background-color:#DDDDDD;
+}
+.leadIntroduce_leadIntroduce_left_ul li a:hover{
+	color:red;
+}
+
+.leadIntroduce_leadIntroduce{
+	width:100%;
+	min-height:554px;	
+}
+.leadIntroduce_leadIntroduce_01{
+	margin:0 10px;
+	height:177px;
+	
+}
+
+.leadIntroduce_leadIntroduce_01 img{
+	margin:10px 0;
+	float:left;
+}
+.leadIntroduce_leadIntroduce_01_01{
+	width:580px;
+	height:178px;
+	float:left;
+}
+.leadIntroduce_leadIntroduce_01_01 span{
+	letter-spacing:2px;
+	margin:10px 10px;
+	display:block;
+}
+.leadIntroduce_leadIntroduce_line{
+	clear:both;
+	height:20px;
+	width:778px;
+	background-color:#DDDDDD;
+}
+.leadIntroduce_resume{
+	margin-left:10px;
+	font-size:14px;
+	width:50px;
+	text-align:right;
+	background-image:url(../img/person.png);
+	background-position:left;
+	background-repeat:no-repeat;
+}
+.leadIntroduce_leadIntroduce_content{
+	min-height:300px;
+}
+
+
+
+
+
+

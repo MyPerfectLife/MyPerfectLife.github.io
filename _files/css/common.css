@@ -1,0 +1,399 @@
+.index_main{
+	margin:0 auto;
+	width:1200px;
+}
+a{
+	text-decoration:none;
+}
+
+/**
+ 最顶部的背景
+*/
+.index_head{
+	margin:0 auto;
+	width:1200px;
+	height:140px;
+}
+.swf{
+	margin:0 auto;
+	position:absolute;
+	width:1200px;
+	height:140px;
+}
+
+/**
+ logo
+*/
+.index_head_logo{
+	position:absolute;
+	margin-top:-100px;
+	margin-left:100px;
+	z-index:10;
+}
+
+/**
+ 菜单
+*/
+.index_top_menu{
+	position:relative;
+	margin:0 auto;
+	height:40px;
+	width:1010px;
+	background-color:#CD0104;
+	background-repeat:repeat-x;
+	text-align:center;
+}
+
+.index_top_menu ul{
+	float:left;
+	padding: 0px;
+	margin:0px;
+	overflow:hidden;
+	list-style-type: none;
+}
+.index_top_menu li:first-child{
+	margin-left:8px;
+}
+.index_top_menu li{
+	float:left;
+	background-image:   url(../img/fgx_03.jpg);
+	background-repeat:repeat-y;
+	background-position:right;
+	display:inline;
+	width:100px;
+    line-height: 40px;
+    font-size: 16px;
+}
+
+.index_top_menu li:last-child{
+	background-image:none;
+	display:inline;
+	width:90px;
+    line-height: 40px;
+    font-size: 16px;
+}
+
+.index_top_menu li a{
+	color:white;
+	display:block;
+	width:99px;
+}
+.index_top_menu li a:hover{
+	color:white;
+	display:block;
+	width:99px;
+	background-color:#FB0005;
+}
+
+
+/**
+ 子页面的  当前位置
+*/
+.general_position{
+	margin:0 auto;
+	margin-top:10px;
+	height:25px;
+	width:1008px;
+	font-size:12px;
+	line-height:25px;
+	border:1px #DDDDDD solid;
+	background-color:#F2F2F2;
+}
+
+/**
+ 每个框的 title
+*/
+.index_general_parent{
+	background-color:#F0F0F0;
+	border-bottom:1px #DDDDDD solid;
+	height:35px;
+	width:438px;
+}
+
+/**
+ 主页面右边每个框的 title
+*/
+
+.index_general_right_parent{
+	background-color:#F0F0F0;
+	border-bottom:1px #DDDDDD solid;
+	height:35px;
+	width:217px;
+}
+
+/**
+ 每个框的 title  中长
+*/
+.index_general_middle_parent{
+	background-color:#F0F0F0;
+	border-bottom:1px #DDDDDD solid;
+	height:35px;
+	width:383px;
+}
+/**
+ 每个框的 title  长
+*/
+.index_general_long_parent{
+	background-color:#F0F0F0;
+	border-bottom:1px #DDDDDD solid;
+	height:35px;
+	width:778px;
+}
+
+/**
+ 主页面最底部框的 title 背景
+*/
+.index_general_bottom_parent{
+	background-color:#F0F0F0;
+	border-bottom:1px #DDDDDD solid;
+	height:35px;
+	width:497.5px;
+}
+
+
+
+
+/**
+ 主页面title 
+*/
+.index_general_title{
+	height:35px;
+	float:left;
+	line-height:35px;
+	font-size:14px;
+	margin-left:6px;
+}
+
+
+
+/**
+ 更多
+*/
+.index_general_more{
+	height:35px;
+	float:right;
+	cursor:pointer;
+	line-height:35px;
+	margin-right:6px;
+}
+
+.index_general_more a{
+	color:black;	
+	width:50px;
+	display:BLOCK;
+	background-image:url(../img/more.png);
+	background-repeat:no-repeat;
+	background-position:right;
+}
+
+.index_general_more a:hover{
+	color:red;
+	background-repeat:no-repeat;
+	background-image:url(../img/morer.png);
+}
+
+
+
+
+/**
+公共ul
+*/
+
+
+.index_general_ul ul{
+    padding: 0px;
+	margin:4px 0;
+	list-style-type: none;
+
+}
+.index_general_ul li{
+	line-height: 32px;
+	height:32px;
+    width: 100%;
+    font-size: 14px;
+    text-align: left;
+	border-bottom: 1px dashed #DDDDDD;
+}
+
+.index_general_ul li:last-child{
+	border-bottom: 0;
+}
+.index_general_ul li a{
+	background-image:url(../img/xg.jpg);
+	color:black;
+	padding-left: 22px;
+	float:left;
+	overflow:hidden;
+	width:260px;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	display:block;
+	background-repeat: no-repeat;
+    background-position: 10px 10px;
+	clear:left;
+	cursor:pointer;
+}
+
+.index_general_ul li a:hover{
+	color:red;
+}
+
+.index_general_ul li span{
+	float:right;
+	clear:right;
+	margin-right:10px;
+}
+
+
+/**
+通用  带图片
+*/
+
+
+.index_general_withImg_img{
+	clear:right;
+	height:100px;
+	width:370px;
+}
+.index_general_withImg_img div{
+	padding-left:10px;
+	padding-top:10px;
+}
+.index_general_withImg_img img{
+	float:left;	
+}
+.index_general_withImg_img span{
+	font-size:16px;
+	color:black;
+	display:block;
+	float:left;
+	width:220px;
+	height:85px;
+	margin-left:6px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+
+.index_general_withImg_img span:hover{
+	color:red;
+}
+.index_general_withImg_ul{
+	 padding: 0px;
+}
+
+.index_general_withImg_ul ul{
+    padding: 0px;
+	margin:4px 0;
+	list-style-type: none;
+
+}
+.index_general_withImg_ul li{
+	line-height: 32px;
+    width: 100%;
+	height:32px;
+    font-size: 14px;
+    text-align: left;
+	border-top: 1px dashed #DDDDDD;
+}
+
+.index_general_withImg_ul li a{
+	background-image:url(../img/xg.jpg);
+	color:black;
+	padding-left: 22px;
+	float:left;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	width:260px;
+	display:block;
+	background-repeat: no-repeat;
+    background-position: 10px 10px;
+	clear:left;
+	cursor:pointer;
+}
+
+.index_general_withImg_ul li a:hover{
+	color:red;
+}
+
+.index_general_withImg_ul li span{
+	float:right;
+	clear:right;
+	margin-right:10px;
+}
+
+
+/**右边的小ul */
+.general_right_ul ul{
+    padding: 0px;
+	margin:0px 0;
+	list-style-type: none;
+
+}
+.general_right_ul li{
+	line-height: 30px;
+	height:30px;
+    width: 100%;
+    font-size: 12px;
+    text-align: left;
+}
+
+.general_right_ul li a{
+	background-image:url(../img/point.png);
+	color:black;
+	padding-left: 22px;
+	float:left;
+	overflow:hidden;
+	width:180px;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	display:block;
+	background-repeat: no-repeat;
+    background-position: 10px 10px;
+	clear:left;
+	cursor:pointer;
+}
+.general_right_ul li:hover{
+	background-color:#DDDDDD;
+}
+.general_right_ul li a:hover{
+	color:red;
+}
+
+
+
+/**
+bottom
+*/
+
+
+.index_bottom{
+	margin:0 auto;
+	background-color:#D20814;
+	width:100%;
+	height:4px;
+	margin-top:10px;
+	
+}
+
+.index_copy_right{
+	margin:0 auto;
+	background-color:#F4F4F4;
+	width:100%;
+	height:90px;
+}
+.index_copy_right div{
+	margin:0 auto;
+	width:1009px;
+	height:90px;
+	text-align:center;
+	font-size:12px;
+}
+.index_copy_right div span{
+	position:relative;
+	display:block;
+	line-height:24px;
+	top:10px;
+}
+
+

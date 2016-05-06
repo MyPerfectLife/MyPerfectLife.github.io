@@ -1,0 +1,65 @@
+.fd_picintro_tit {
+    float: left;
+    margin-right: 10px;
+}
+.fd_picintro_con {
+    float: left;
+    width: 855px;
+}
+.marqueeleft {
+    width: 920px;
+    margin: 0px auto 0;
+    height: 188px;
+    overflow: hidden;
+}
+.marqueeleft ul {
+    float: left;
+	 list-style: none;
+}
+
+.marqueeleft li {
+    float: left;
+    margin-right: 12px;
+    display: inline;
+    width: 240px;
+    overflow: hidden;
+}
+.marqueeleft li a {
+    display: block;
+    width: 240px;
+    height: 140px;
+    overflow: hidden;
+}
+
+.marqueeleft li p {
+    width: 240px;
+    font: 14px/20px "simsun";
+    text-align: center;
+    margin-top: 6px;
+}
+.marqueeleft li p a {
+    width: 240px;
+    color: #333;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+
+
+
+.marqueeUp {
+    width: 217px;
+    margin: 0px auto 0;
+    height: 160px;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+

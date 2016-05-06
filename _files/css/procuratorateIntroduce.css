@@ -1,0 +1,38 @@
+.pro_middle{
+	margin:0 auto;
+	width:1009px;
+	min-height:600px;
+	margin-top:10px;
+	border:1px #DDDDDD solid;
+}
+
+.title{
+	text-align:center;
+	margin:0 auto;	
+	hright:80px;
+	line-height:40px;
+	font-size:20px;
+	font-weight:bold;
+}
+.line{
+	margin:0 auto;	
+	background-color:#DDDDDD;
+	width:	1009px;
+	font-size:14px;
+	text-align:center;
+	line-height:27px;
+	height:27px;
+}
+
+.line p{
+	display:inline;
+	margin-left:20px;	
+}
+.content{
+	margin:0 auto;
+	margin-top:10px;
+	text-indent:2em;	
+	line-height:30px;
+	letter-spacing:2px;
+	width:	970px;
+}

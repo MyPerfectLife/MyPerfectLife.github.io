@@ -1,0 +1,734 @@
+*{
+	
+
+}
+
+
+
+
+/**
+ 漯检头条
+*/
+.index_ljtt{
+	margin:0 auto;
+	height:58px;
+	border:1px #DDDDDD solid;
+	width:1009px;
+	margin-top:10px;
+}
+.index_ljtt_left{
+	float:left;
+	background-image:url(../img/ljtt_03.png);
+	height:100%;
+	width:98px;
+	background-repeat:no-repeat;
+}
+.index_ljtt_right{
+	width:900px;
+	float:right;
+	height:58px;
+		
+}
+.index_ljtt_right_up a{
+	width:900px;
+	height:29px;
+	color:#FF0019;
+	font-size:18px;
+	font-weight:bold;
+	line-height:29px;
+}
+.index_ljtt_right_down{
+	width:900px;
+	height:29px;
+	line-height:29px;
+	
+}
+
+.index_ljtt_right_down a{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-size:14px;
+	max-width:280px;
+	display:-moz-inline-box;
+	display:inline-block; 
+	color:black;
+}
+
+.index_ljtt_right_down_span{
+	margin-left:20px;
+	font-size:14px;
+}
+
+
+/**
+ 滚动图片  综合信息 通知公告  右上边的菜单 部门列表  全站搜索
+*/
+.index_middle_01{
+	margin:0 auto;
+   width:1009px;
+   height:432px;	
+   margin-top:10px;
+}
+
+/**
+ 滚动图片  综合信息 通知公告
+*/
+.index_middle_01_01{
+   float:left;
+   height:278px;
+   width:780px;
+}
+
+/**
+ 滚动图片
+*/
+.index_middle_01_01_01{
+	float:left;
+	height:278px;
+	width:328px;
+	border:1px #DDDDDD solid;
+}
+
+/**
+ 综合信息
+*/
+.index_middle_zhxx{
+	margin-left:10px;
+	float:left;
+	height:278px;
+	width:438px;
+	border:1px #DDDDDD solid;
+}
+
+.index_middle_zhxx_01{
+	background-image:url(../img/jcxx_03.jpg);
+	background-repeat:no-repeat;
+	float:left;
+	width:35px;
+	height:100%;	
+}
+
+
+.index_middle_zhxx_02{
+	clear:right;
+	height:88px;
+	width:438px;
+	border-bottom: 1px dashed #DDDDDD;
+}
+.index_middle_zhxx_02 div{
+	padding-left:10px;
+	padding-top:10px;
+}
+.index_middle_zhxx_02 a{
+	font-size:20px;
+	color:black;	
+}
+.index_middle_zhxx_02 a:hover{
+	color:red;	
+}
+.index_middle_zhxx_02 span{
+	font-size:14px;
+	color:#C30600;
+	display:block;
+}
+
+
+.index_middle_zhxx_ul{
+	 padding: 0px;
+	 height:247px;
+}
+
+.index_middle_zhxx_ul ul{
+    padding: 0px;
+	margin:4px 0;
+	list-style-type: none;
+
+}
+.index_middle_zhxx_ul li{
+	line-height: 30px;
+    width: 100%;
+    font-size: 16px;
+    text-align: left;
+   
+}
+.index_middle_zhxx_ul li a{
+	background-image:url(../img/xg.jpg);
+	color:black;
+	padding-left: 22px;
+	float:left;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	width:290px;
+	display:block;
+	background-repeat: no-repeat;
+    background-position: 10px 7px;
+	clear:left;
+	cursor:pointer;
+}
+.index_middle_zhxx_ul li a:hover{
+	color:red;	
+}
+.index_middle_zhxx_ul li span{
+	float:right;
+	clear:right;
+	margin-right:10px;
+}
+
+
+/**
+ 通知公告
+*/
+.index_middle_notice{
+	margin-top:10px;
+	float:left;
+	height:141px;
+	width:778px;
+	border:1px #DDDDDD solid;
+}
+
+
+.index_middle_notice_01{
+	background-image:url(../img/tzgg_03.jpg);
+	background-repeat:no-repeat;
+	float:left;
+	width:35px;
+	height:100%;	
+}
+.index_middle_notice_line{
+	margin:12px 0;
+	float:left;
+	width:1px;
+	height:84px;
+	margin-left:6px;
+	background-color:#DDDDDD;
+}
+
+
+
+
+/**
+ 右上边的菜单 部门列表  全站搜索
+*/
+
+.index_middle_01_02{
+	margin-left:10px;
+   float:right;
+}
+
+/**
+ 右上边的菜单
+*/
+.index_middle_rightMenu{
+	height:197px;
+	width:217px;
+	border:1px #DDDDDD solid;
+}
+.index_middle_rightMenu ul{
+    padding: 0px;
+	margin:0px;
+	list-style-type: none;
+
+}
+.index_middle_rightMenu li{
+	background-position: center;
+	background-color:#F2F2F2;
+    line-height: 38.8px;
+    width: 100%;
+    font-size: 15px;
+    text-align: left;
+    cursor:pointer;
+	border-bottom:1px #DDDDDD solid;
+}
+.index_middle_rightMenu li a{
+	background-image:url(../img/gh.png);
+	color:#DF0005;
+	padding-left: 28%;
+	height: 38.8px;
+	width:156px;
+	display:block;
+	background-repeat: no-repeat;
+    background-position: 30px 10px;
+}
+.index_middle_rightMenu li a:hover{
+	color:black;
+}
+
+/**
+ 部门列表
+*/
+.index_middle_depts{
+	margin-top:10px;
+	height:137px;
+	width:217px;
+	border:1px #DDDDDD solid;
+}
+
+.index_middle_depts_01{
+	background-image:url(../img/sy.jpg);
+	background-repeat:no-repeat;
+	float:left;
+	width:35px;
+	height:100%;
+}
+
+.index_middle_depts_02{
+	position: relative;
+	overflow: hidden;
+	width: 217px; 
+	height: 100px;
+	
+}
+
+
+
+	
+/**
+ 全站搜索
+*/
+.index_middle_qzss{
+	margin-top:10px;
+	height:70px;
+	width:217px;
+	border:1px #DDDDDD solid;
+}
+.index_middle_qzss_01{
+	color:white;
+	width:76px;
+	height:35px;
+	line-height:35px;
+	background-color:red;
+	text-align:center;
+}
+.index_middle_qzss_02{
+	height:34px;
+	width:217px;
+	line-height:71px;
+	text-align:center;
+}
+.index_middle_qzss_02_01{
+	margin: 4px auto;
+	height:30px;
+	width:207px;
+	line-height:30px;
+}
+.index_middle_qzss_02_01_01{
+	float:left;
+	border-radius:50px;
+	height:26px;
+	width:140px;
+	border:1px #DDDDDD solid;
+}
+.index_middle_qzss_02_01_02{
+	cursor:pointer;
+	float:right;
+	width:60px;
+	height:30px;
+	color:white;
+	text-align:center;
+	background-color:red;	
+}
+.index_middle_qzss_input{
+	border: 0;
+	border-radius:50px 0 0 50px;
+	float:left;
+    height:24px;
+    width: 100px;
+    font-size: 12px;
+	line-height:26px;
+	margin-left:4px;
+	
+}
+.index_middle_search{
+	background-image:url(../img/search.jpg);
+	background-position:2px 2px;
+	background-repeat:no-repeat;
+	float:right;
+	width:30px;
+	height:26px;
+	border-left:1px #DDDDDD solid;
+}
+
+/**中间图片*/
+.index_middle_02{
+	margin:0 auto;
+	background-image:url(../img/gga.jpg);
+	width:1009px;
+	margin-top:10px;
+	height:95px;
+	background-repeat:no-repeat;
+}
+
+/**
+
+领导讲话  媒体看我院   内网链接
+*/
+.index_middle_03{
+	margin:0 auto;
+   clear:both;
+   width:1009px;
+   height:210px;	
+   margin-top:10px;
+}
+
+
+/**
+ 领导讲话
+*/
+.index_middle_ldjh{
+	float:left;
+	height:208px;
+	width:383px;
+	border:1px #DDDDDD solid;
+}
+.index_middle_ldjh_01{
+	background-image:url(../img/ldjh_03.jpg);
+	background-repeat:no-repeat;
+	float:left;
+	width:35px;
+	height:100%;
+}
+
+/**
+ 媒体看我院
+*/
+.index_middle_mtkwy{
+	margin-left:10px;
+	float:left;
+	height:208px;
+	width:383px;
+	border:1px #DDDDDD solid;
+}
+.index_middle_mtkwy_01{
+	background-image:url(../img/mtlj_03.jpg);
+	background-repeat:no-repeat;
+	float:left;
+	width:35px;
+	height:100%;
+}
+
+.index_middle_mtkwy_ul ul{
+    padding: 0px;
+	margin:4px 0;
+	list-style-type: none;
+
+}
+.index_middle_mtkwy_ul li{
+	line-height: 28px;
+	height:28px;
+    width: 100%;
+    font-size: 14px;
+    text-align: left;
+}
+
+.index_middle_mtkwy_ul li a{
+	background-image:url(../img/point.png);
+	color:black;
+	padding-left: 22px;
+	float:left;
+	width:260px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	display:block;
+	background-repeat: no-repeat;
+    background-position: 10px 10px;
+	clear:left;
+	cursor:pointer;
+}
+.index_middle_mtkwy_ul li a:hover{
+	color:red;
+}
+
+.index_middle_mtkwy_ul li span{
+	float:right;
+	clear:right;
+	margin-right:10px;
+}
+
+
+/**
+ 内网链接
+*/
+.index_middle_nwlj{
+	margin-left:10px;
+	float:left;
+	height:174px;
+	width:217px;
+	border:1px #DDDDDD solid;
+}
+.index_middle_nwlj_01{
+	background-image:url(../img/nwlj_03.jpg);
+	background-repeat:no-repeat;
+	float:left;
+	width:35px;
+	height:100%
+}
+.index_middle_nwlj_02{
+	padding: 0px;
+	height:242px;
+}
+
+
+.index_middle_nwlj_02 ul{
+    padding: 0px;
+	margin:2px 0;
+	list-style-type: none;
+
+}
+.index_middle_nwlj_02 li{
+	line-height: 19px;
+	height:19px;
+    width: 100%;
+    font-size: 12px;
+    text-align: left;
+   
+}
+
+.index_middle_nwlj_02 li:hover,.index_middle_nwlj_02 li a:hover{
+	color:red;
+	background-color: #DDDDDD;
+}
+
+.index_middle_nwlj_02 li a{
+	color:black;
+	padding-left: 12px;
+	float:left;
+	overflow:hidden;
+	width:95%;
+	display:block;
+	clear:left;
+	cursor:pointer;
+}
+/**
+
+检查信息  理论研讨 信息化同一平台
+*/
+.index_middle_jcxxAndllyjAndxxh{
+   margin:0 auto;
+   clear:both;
+   width:1009px;
+   height:174px;	
+   margin-top:10px;
+}
+
+/**
+
+检查信息
+*/
+.index_middle_jcxx{
+	float:left;
+	height:174px;
+	width:383px;
+	border:1px #DDDDDD solid;
+}
+.index_middle_jcxx_01{
+	background-image:url(../img/jgjd.jpg);
+	background-repeat:no-repeat;
+	float:left;
+	width:35px;
+	height:100%;
+}
+
+/**
+
+  理论研讨
+*/
+.index_middle_llyj{
+	margin-left:10px;
+	float:left;
+	height:174px;
+	width:383px;
+	border:1px #DDDDDD solid;
+}
+.index_middle_llyj_01{
+	background-image:url(../img/ll.jpg);
+	background-repeat:no-repeat;
+	float:left;
+	width:35px;
+	height:100%;
+}
+
+/**
+
+信息化同一平台
+*/
+.index_middle_xxhtypt{
+	margin-left:10px;
+	float:left;
+	height:208px;
+	width:217px;
+	border:1px #DDDDDD solid;
+}
+.index_middle_xxhtypt_01{
+	background-image:url(../img/xx.jpg);
+	background-repeat:no-repeat;
+	float:left;
+	width:35px;
+	height:100%;
+}
+.index_middle_xxhtypt_ul ul{
+    padding: 0px;
+	margin:4px 0;
+	list-style-type: none;
+
+}
+.index_middle_xxhtypt_ul li{
+	line-height: 28px;
+	height:28px;
+    width: 100%;
+    font-size: 14px;
+    text-align: left;
+}
+.index_middle_xxhtypt_ul li a{
+	background-image:url(../img/point.png);
+	color:black;
+	padding-left: 22px;
+	float:left;
+	width:180px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	display:block;
+	background-repeat: no-repeat;
+    background-position: 10px 10px;
+	clear:left;
+	cursor:pointer;
+}
+
+.index_middle_xxhtypt_ul li:hover,.index_middle_xxhtypt_ul li a:hover{
+	color:red;
+	background-color: #DDDDDD;
+}
+
+
+.index_middle_04{
+	margin:0 auto;
+	background-image:url(../img/ggc.jpg);
+	width:1009px;
+	margin-top:10px;
+	height:95px;
+	background-repeat:no-repeat;
+}
+
+
+
+
+/**
+
+廉政教育  检察文苑    讲文明 树新风  建言献策
+*/
+.index_middle_lzjyAndjcwy{
+   margin:0 auto;
+   clear:both;
+   width:1009px;
+   height:137px;	
+   margin-top:10px;
+}
+
+/**
+
+廉政教育 
+*/
+.index_middle_lzjy{
+	float:left;
+	height:137px;
+	width:497.5px;
+	border:1px #DDDDDD solid;
+}
+.index_middle_lzjy_01{
+	background-image:url(../img/gmlz_03.jpg);
+	background-repeat:no-repeat;
+	float:left;
+	width:35px;
+	height:100%;
+}
+
+/**
+
+  检察文苑
+*/
+.index_middle_jcwy{
+	margin-left:10px;
+	float:left;
+	height:137px;
+	width:497.5px;
+	border:1px #DDDDDD solid;
+}
+.index_middle_jcwy_01{
+	background-image:url(../img/jcwy_03.jpg);
+	background-repeat:no-repeat;
+	float:left;
+	width:35px;
+	height:100%;
+}
+/**
+
+  讲文明 树新风     建言献策 
+*/
+.index_middle_jwmAndjyxc{
+	margin-left:10px;
+	float:left;
+	height:210px;
+	width:217px;
+}
+.index_middle_jwm{
+	height:100px;
+	width:217px;
+}
+.index_middle_jyxc{
+	margin-top:4px;
+	height:100px;
+	width:217px;
+}
+
+
+
+/**
+ 检察文化
+*/
+.index_middle_jcwh{
+   margin:0 auto;
+   clear:both;
+   width:1009px;
+   height:188px;	
+   margin-top:10px;
+   background-color:#F1F1F1;
+   overflow: hidden;
+}
+
+
+
+.myscroll {
+    width: 219px;
+    height: 82px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    line-height: 26px;
+    font-size: 14px;
+    overflow: hidden;
+}
+
+.myscroll ul{
+    padding: 0px;
+	margin:4px 0;
+	list-style-type: none;
+
+}
+
+.myscroll li {
+    height: 26px;
+}
+.myscroll a {
+    color: #333;
+	width:95px;
+	float:left;
+	height: 26px;
+	display:inlin-block;
+    margin-left: 10px;
+}
+.myscroll a:hover {
+    color: #ED5565;
+}
+
